@@ -1,11 +1,11 @@
 import { StyleSheet,SafeAreaView } from 'react-native';
-import Hero from './components/Hero';
-import PhotoList from './components/PhotoList';
+import Login from "./screen/Login"
+import PhotoList from './screen/PhotoList';
 
 export default function App() {
   return (
     <SafeAreaView style={styles.safeArea} >
-    <Hero/>
+    <Login/>
     <PhotoList/>
     </SafeAreaView>
   );
