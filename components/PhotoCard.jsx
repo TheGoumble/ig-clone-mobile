@@ -1,5 +1,5 @@
 import React from "react"
-import { View, Image, Text } from "react-native"
+import { View, Image, Text, ActivityIndicator } from "react-native"
 import { photoCardStyles } from "../assets/styles"
 
 import { Avatar, Icon } from "react-native-elements"
@@ -18,12 +18,15 @@ export default function PhotoCard({ photo }) {
             <Text style = {photoCardStyles.cardLocation}>San Francisco</Text>
           </View>
         </View>
-        <Icon name = "code"/>
+        <Icon name = "more-vert"/>
       </View>
 
-      <Image source={{url: BASE_URL + 1}} style = {photoCardStyles.cardImage}/>
+      <Image source={{url: BASE_URL + photo.id}}
+       style = {photoCardStyles.cardImage}
+       PlaceholderContent = {<ActivityIndicator/>}/>
 
-      <Text style ={photoCardStyles.cardText}>Text here</Text>
+
+      <Text style ={photoCardStyles.cardText}>The idea with React Native Elements is more about component</Text>
     </>
   )
 }

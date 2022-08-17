@@ -8,7 +8,7 @@
     "userInterfaceStyle": "light",
     "splash": {
       "image": "https://www.thoughtco.com/thmb/ivzSG19pJ7o093IQO_Rw-dpDGjQ=/3867x2175/smart/filters:no_upscale()/getty-brown-bear-56afcf215f9b58b7d01d5195.jpg",
-      "resizeMode": "contain",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "updates": {
