@@ -6,7 +6,7 @@ import { Avatar, Icon } from "react-native-elements"
 
 export default function PhotoCard({ photo }) {
   
-  const BASE_URL = `https://source.unsplash.com/random?funny=`
+  const BASE_URL = `https://source.unsplash.com/random?spooky=`
     return (
     <>
       <View style={photoCardStyles.cardContainer}>

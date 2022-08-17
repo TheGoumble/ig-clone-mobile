@@ -1,8 +1,11 @@
 import { StyleSheet } from "react-native"
 
 export const loginStyles = StyleSheet.create({
-  headerbar: {
-    height: 50,
+  container: {
+    display: "flex",
+    justifyContent: "center",
+    paddingHorizontal: 40,
+    height: "100%",
     backgroundColor: "white",
   },
 
@@ -24,16 +27,16 @@ export const photoCardStyles = StyleSheet.create({
     marginLeft: 1,
     flexDirection: "row",
   },
-  cardHeaderText:{
+  cardHeaderText: {
     marginLeft: 15,
   },
 
-  cardLocation:{
+  cardLocation: {
     color: "gray",
     fontSize: 12,
   },
 
-  cardText:{
+  cardText: {
     margin: 20,
   },
 
@@ -41,7 +44,7 @@ export const photoCardStyles = StyleSheet.create({
     width: "100%",
     aspectRatio: 1,
     flex: 1,
-  }
+  },
 })
 
 export const photoListStyles = StyleSheet.create({
